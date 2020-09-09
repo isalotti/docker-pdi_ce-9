@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sharedobjects>
+  <connection>
+    <name>database</name>
+    <server>${DB_HOST}</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>${DB_NAME}</database>
+    <port>${DB_PORT}</port>
+    <username>${DB_USER}</username>
+    <password>${DB_PASSWORD}</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+    </attributes>
+  </connection>
+
+</sharedobjects>

@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  app:
+    image: docker-pdi_ce-9:v1.0.0 
+    tty: true
+    stdin_open: true
+    extends:
+      file: pdi-compose.yml
+      service: pdi
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+      args: 
+        APP_PATH: /home/pentaho/docker-pdi_ce-9
+        CRONTAB_FILE_PATH: /home/pentaho/docker-pdi_ce-9/crontab/crontab_pentaho
+

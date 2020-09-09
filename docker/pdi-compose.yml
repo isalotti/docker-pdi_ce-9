@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  pdi:
+    build:
+      args: 
+        PDI_RELEASE: ${PDI_RELEASE}
+        PDI_VERSION: ${PDI_VERSION}
+        MYSQL_CONN_VERSION: ${MYSQL_CONN_VERSION}
+        JAVA_MAIL_VERSION_PATH: ${JAVA_MAIL_VERSION_PATH}
+        JAVA_MAIL_VERSION: ${JAVA_MAIL_VERSION}
+        PDI_WORKDIR: ${PDI_WORKDIR}
+        PDI_HOME: ${PDI_HOME}
+        PENTAHO_USER: ${PENTAHO_USER}
+        PENTAHO_HOME: ${PENTAHO_HOME}
+        TZ : ${TZ}
