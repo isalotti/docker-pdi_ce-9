@@ -542,7 +542,19 @@
     </file>
     <fields>
       <field>
-        <name>test_field</name>
+        <name>test_field1</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>teste_field2</name>
         <type>String</type>
         <format/>
         <currency/>

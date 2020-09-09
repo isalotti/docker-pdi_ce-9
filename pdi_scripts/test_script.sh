@@ -27,6 +27,6 @@ PATH_KETTLE_HOME=$PATH_REPO/pdi_app/kettle_home
 export KETTLE_HOME=$PATH_KETTLE_HOME
 
 if [ "$?" = "0" ]; then
-	sh $PENTAHO_HOME/kitchen.sh -file=$PATH_APP/test.kjb -DKETTLE_HOME=$PATH_KETTLE_HOME
+	sh $PENTAHO_HOME/kitchen.sh -file=$PATH_APP/test_job.kjb -DKETTLE_HOME=$PATH_KETTLE_HOME
 fi
 
